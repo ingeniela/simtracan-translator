@@ -1,6 +1,6 @@
 # simtracan-translator
 
-![simtracan.jpg](simtracan.jpg)
+![logo_banner.jpg](logo_banner.jpg)
 
 ## 🀄 Simtracan Translator
 
