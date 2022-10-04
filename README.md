@@ -74,7 +74,11 @@ Of course, as the software is new it may have problems, but I'll keep working on
 
 ![code_structure.jpg](code_structure.jpg)
 
+### Logical Explanation
+
+
 **First Stage:**
+
 
 Depending on the first language you want to use for the translation, the other options you can use for the second language will be displayed.
 
@@ -90,7 +94,9 @@ Now you can select any of the next languages:
 
 Both Mandarin Chinese pinyin and Cantonese pinyin are not available for selection as a "first language" at this time
 
+
 **Second Stage:**
+
 
 Based on the languages you selected, it will allow you to enter the text you want to translate and the text you enter will go to a created function.
 
@@ -124,7 +130,9 @@ chinese_characters = "[\u4e00-\u9fff]+"
 
 If your text does not have Chinese characters, it will display an error message (`"》ERROR: The text you input does not have Chinese characters. Please try again《"`), but if it has Chinese characters, it will call the replace method.
 
+
 **Third Stage:**
+
 
 The replace method will automatically replace the input text from 'language A' to 'language B' by replacing the keys with values it can find in a dictionary
 
@@ -183,7 +191,7 @@ Star ⭐ this repository if my project helped you!
 - 0.1
 -Initial version
 
-## 👩🏼 Author
+## 👤 Author
 
 Daniela Bai (Daniela Barazarte)
 
