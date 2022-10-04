@@ -72,7 +72,7 @@ Of course, as the software is new it may have problems, but I'll keep working on
 
 ### Structure
 
-![SIMTRACAN TRANSLATOR.jpg](SIMTRACAN_TRANSLATOR.jpg)
+![code_structure.jpg](code_structure.jpg)
 
 **First Stage:**
 
@@ -183,7 +183,7 @@ Star ⭐ this repository if my project helped you!
 - 0.1
 -Initial version
 
-## 👩🏼‍💻 Author
+## 👩🏼 Author
 
 Daniela Bai (Daniela Barazarte)
 
