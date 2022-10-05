@@ -62,8 +62,6 @@ Of course, as the software is new it may have problems, but I'll keep working on
 
 - **First language**: is the language you will use to input the text you want to translate
 - **Second language**: is the language that the software will choose to generate the translation
-- **First Language**: is the language you will use for input the text you want to translate
-- **Second Language**: is the language the software will pick for output the translation
 - **SM**: **S**implified **M**andarin
 - **TM**: **T**raditional **M**andarin
 - **MP**: **M**andarin **P**inyin
