@@ -18,7 +18,7 @@ While improving my Chinese, I was also learning Python through a Youtube tutoria
 
 It was hard at first, considering that I am very new to the programming aspect and not good at Cantonese at all, but even with that I decided to build it.
 
-I started the project and made the decision to call it “Simtracan Translator” as it includes Simplified, Traditional and Cantonese Chinese. Now I am very excited to show this project.
+I started the project and made the decision to call it “Simtracan Translator” as it includes **Sim**plified, **Tra**ditional and **Can**tonese Chinese. Now I am very excited to show this project.
 
 ## 🚀 Installation
 
@@ -28,7 +28,7 @@ No pre-requisites, only Regex Library that comes as default in Python.
 
 ### Installation
 
-1. Clone this repository
+1. Clone the script called: "simtracan_translator_pythonfile.py" that is inside of this repository
 2. Execute the Python script
 
 ## 💻 Usage
