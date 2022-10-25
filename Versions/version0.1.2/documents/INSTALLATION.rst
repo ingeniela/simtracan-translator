@@ -1,8 +1,0 @@
-INSTALLATION
-=====
-
-Section
--------
-
-Subsection
-~~~~~~~~~~
