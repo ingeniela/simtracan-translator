@@ -1,4 +1,4 @@
-# simtracan-translator
+# version 0.1.1
 
 ![logo_banner.jpg](logo_banner.jpg)
 
@@ -8,7 +8,7 @@
 
 You can use it whenever you want to translate text using only the python console, the result can become accurate, and it can also provide Pinyin translation for both Mandarin and Cantonese. It's a great tool when you want a translation from a different source. The software can automatically translate the most common 8,000 Chinese characters without any character limit per translation.
 
-The first version was made from September 24, 2022 to October 4, 2022.
+This first version was made from September 24, 2022 to October 4, 2022.
 
 ### Motivation
 
