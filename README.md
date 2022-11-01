@@ -276,11 +276,11 @@ I input all of the wordlist in a Excel File, but as I needed to transform it fro
 > 
 
 **Main improvements**
-
 - Able to translate 20000 of the most common Chinese Characters
 - Addition of new languages:
     - Chinese Zhuyin
     - Chinese Unicode
+  
 **Other improvements**
     - Better checker of the inputted text (Chinese Character, Latin letters or Zhuyin)
     - Creation of system for traslations using less space
@@ -296,8 +296,8 @@ I input all of the wordlist in a Excel File, but as I needed to transform it fro
 > 
 
 **Main improvements**
-
 - Able to translate 12000 of the most common Chinese Characters
+
 **Other improvements**
     - Checker of the inputted text (Chinese Character or not)
     - Better functions fo translation
