@@ -1,4 +1,4 @@
-![Simtracan Logo and Banner](simtracan_banner.jpg)
+![Simtracan Logo and Banner](README_SimtracanBanner.jpg)
 
 ## 🀄 Simtracan Translator
 
@@ -33,7 +33,7 @@ The only aditional Library that his software use is Regex that comes as default 
 
 1. Download the ZIP of this repositor
 
-![gitHub_downloadZIPFile.png](gitHub_downloadZIPFile.png)
+![How to Download GITHUB ZIP](README_DownloadZip.png)
 
 1. Extract the ZIP you downloaded
 2. Use Simtracan Translator Freely
