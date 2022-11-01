@@ -33,7 +33,7 @@ The only aditional Library that his software use is Regex that comes as default 
 
 1. Download the ZIP of this repositor
 
-[git-Hub-download-ZIPFile.png](https://postimg.cc/w35rvZXX)
+![gitHub_downloadZIPFile.png](gitHub_downloadZIPFile.png)
 
 1. Extract the ZIP you downloaded
 2. Use Simtracan Translator Freely
