@@ -10,7 +10,8 @@
 - Addition of new languages:
     - Chinese Zhuyin
     - Chinese Unicode
-- **Other improvements**
+    
+**Other improvements**
     - Better checker of the inputted text (Chinese Character, Latin letters or Zhuyin)
     - Creation of system for traslations using less space
     - Cleaner functions for translation
