@@ -1,11 +1,4 @@
-# simtracan-translator
-
-advances: Githu
-date: October 25, 2022
-
-![Logo and Design made by Daniela Bai](smtc_banner.jpg)
-
-Logo and Design made by Daniela Bai
+![Simtracan Logo and Banner](simtracan_banner.jpg)
 
 ## 🀄 Simtracan Translator
 
@@ -290,7 +283,7 @@ I input all of the wordlist in a Excel File, but as I needed to transform it fro
 - Addition of new languages:
     - Chinese Zhuyin
     - Chinese Unicode
-- **Other improvements**
+**Other improvements**
     - Better checker of the inputted text (Chinese Character, Latin letters or Zhuyin)
     - Creation of system for traslations using less space
     - Cleaner functions for translation
@@ -307,7 +300,7 @@ I input all of the wordlist in a Excel File, but as I needed to transform it fro
 **Main improvements**
 
 - Able to translate 12000 of the most common Chinese Characters
-- **Other improvements**
+**Other improvements**
     - Checker of the inputted text (Chinese Character or not)
     - Better functions fo translation
     - Cleaner and lighter code
