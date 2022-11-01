@@ -100,8 +100,6 @@ Click on “Translate” and receive your translation
 
 Save your translation by saving it to a file that can be .txt or .html
 
-[How to use Version 0.2.0](How%20to%20use%20Version%200%202%200%2086fdbd33c7cf49128e7db409956d8488.md)
-
 ## 📄 Code
 
 ### Glossary
