@@ -1,180 +1,344 @@
 # simtracan-translator
 
-![logo_banner.jpg](logo_banner.jpg)
+advances: Githu
+date: October 25, 2022
+
+![Logo and Design made by Daniela Bai](smtc_banner.jpg)
+
+Logo and Design made by Daniela Bai
 
 ## 🀄 Simtracan Translator
 
-**Simtracan Translator** is a translation tool that can translate between Mandarin Chinese Simplified, Mandarin Chinese Traditional, Mandarin Chinese Pinyin, Cantonese and Cantonese Pinyin, via Python Console
+**Simtracan Translator** is a translation software that (at its 0.1.3 version) can translate between Mandarin Chinese Simplified, Mandarin Chinese Traditional, Mandarin Chinese Pinyin, Cantonese, Cantonese Pinyin, Chinese Zhuyin and Chinese Unicode Characters.
 
-You can use it whenever you want to translate text using only the python console, the result can become accurate, and it can also provide Pinyin translation for both Mandarin and Cantonese. It's a great tool when you want a translation from a different source. The software can automatically translate the most common 8,000 Chinese characters without any character limit per translation.
+This software was developed in Python by Daniela Bai (Daniela Barazarte) and it’s main goal is to translate text in multiple derivations of Chinese language without limit of characters, without ads, with great translation and having multiple options in the same translator.
 
-The first version was made from September 24, 2022 to October 4, 2022.
+Right now it is able to translate most of the Chinese Characters as it contains a library of more than 18.000 汉字.
 
 ### Motivation
 
 Almost two years ago I started to learn Mandarin Chinese and since I am so interested in the language I found some partners to practice with, one of them was a girl from Guangdong who, to play a joke on me, texts messages in Cantonese.
 
-While improving my Chinese, I was also learning Python through a Youtube tutorial ([FreeCodeCamp, Full Course for Beginners Python](https://www.youtube.com/watch?v=rfscVS0vtbw)) and was willing to putting the knowledge into practice so…as before I couldn't find good translators who could give the translation from Cantonese to Simplified Mandarin to understand my partner's messages, why not build it myself? and that's how Simtracan Translator came to mind.
+While improving my Chinese, I was also learning Python through a some Youtube tutorial and was willing to putting the knowledge into practice so…as before I couldn't find good translators who could give the translation from Cantonese to Simplified Mandarin to understand my partner's messages, why not build it myself? and that's how Simtracan Translator came to mind.
 
 It was hard at first, considering that I am very new to the programming aspect and not good at Cantonese at all, but even with that I decided to build it.
 
-I started the project and made the decision to call it “Simtracan Translator” as it includes **Sim**plified, **Tra**ditional and **Can**tonese Chinese. Now I am very excited to show this project.
+I started the project and made the decision to call it “Simtracan Translator” as it includes Simplified, Traditional and Cantonese Chinese. Now I am very excited to show this project.
 
 ## 🚀 Installation
 
 ### Pre-requisites
 
-No pre-requisites, only Regex Library that comes as default in Python.
+Python 3.x.x
+
+The only aditional Library that his software use is Regex that comes as default in most of the Python versions.
+
+> After version 1.2.0 it uses Tkinter
+> 
 
 ### Installation
 
-1. Clone the script called: "simtracan_translator_pythonfile.py" that is inside of this repository
-2. Execute the Python script
+1. Download the ZIP of this repositor
+
+![gitHub_downloadZIPFile.png](gitHub_downloadZIPFile.png)
+
+1. Extract the ZIP you downloaded
+2. Use Simtracan Translator Freely
+    - You can use the Python Module mode on the version 0.1.3
+    - You can use the .exe (Python GUI) mode on the version 0.2.0
 
 ## 💻 Usage
 
+### ❗ Please be aware that
+
+Please, be aware that Simtracan Translator’s software could include technical or typographical errors. Also, Simtracan Translator does not warrant that the translations that occur in the software are accurate and/or complete.
+
+---
+
+### Python Module mode
+
+- Open your Python Terminal/Console
+- Add the folder of the version you need
 - Run the code
-- Select the 'first language' you want to use from the 5 language options
-    - Simplified Mandarin
-    - Traditional Mandarin
-    - Mandarin Pinyin (not available at the moment as selection of first language)
-    - Cantonese
-    - Cantonese Pinyin (not available at the moment as selection of first language)
-- Select the 'second language' you want to use from the other 3 language options
-    - Both Mandarin Pinyin and Cantonese Pinyin are available to be used as a "second language"
+    - If you have problems/error in this step, please [contact me](simtracan-translator%20819d2e8f30024ea3833e508558ff7bee.md)
+- Start to follow the instructions
 
-> If you select an option incorrectly, the software will display an error message and will not continue
+**Explanation** 
+
+*(This is the explanation of version 0.1.3, different versions work similar)*
+
+You’ll need to input the text you want to translate
+
+> The software will automatically check the text that you input with a Regex Function
 > 
 
-> If you select the same option twice, the software will display an error message and will not continue
-> 
-- Enter the text you want to translate from 'first language' to 'second language'
+Select a number that tells in what language is that text that you input
 
-> If the text you enter does not have Chinese characters, the software will display an error message and will not continue
-> 
-- Receive your translation
+Select other number and select the language you want to receive the translation.
 
-Of course, as the software is new it may have problems, but I'll keep working on it.
+> If you selected an option incorrectly, or if you selected the same language twice, the software will display an error message and let you select an option (you have three tries to select the option correctly)
+> 
+
+Receive your translation
+
+### Python GUI mode
+
+- Open the .exe
+    - If you have problems/error in this step, please [contact me](simtracan-translator%20819d2e8f30024ea3833e508558ff7bee.md)
+- Use the translator
+
+**Explanation**
+
+With an interactive interface you’ll need the text you want to translate. You can paste the text on the Text Area, or get it from a file on your computer. 
+
+You can also check the text you input.
+
+> It will count how many characters do your text has, and also tell you whether it is on Pinyin or in Chinese Characters
+> 
+
+Then you must select in the option menu what language is that text that you input.
+
+Select in other option menu the language you want to receive the translation
+
+Click on “Translate” and receive your translation
+
+> If you selected an option incorrectly, or if you selected the same language twice, the software will display an error message and let you select an option again
+> 
+
+Save your translation by saving it to a file that can be .txt or .html
+
+[How to use Version 0.2.0](How%20to%20use%20Version%200%202%200%2086fdbd33c7cf49128e7db409956d8488.md)
 
 ## 📄 Code
 
 ### Glossary
 
-- **First language**: is the language you will use to input the text you want to translate
-- **Second language**: is the language that the software will choose to generate the translation
-- **SM**: **S**implified **M**andarin
-- **TM**: **T**raditional **M**andarin
-- **MP**: **M**andarin **P**inyin
-- **C**: **C**antonese
-- **CP**: **C**antonese **P**inyin
+| Abbreviation | Full Word | Meaning |
+| --- | --- | --- |
+| FL or lang_A | First Language or Language A | is the language you will use to input the text you want to translate |
+| SL or lang_B | Second Language or Language B | is the language that the software will choose to generate the translation |
+| 1 or SM | Simplified Mandarin | 普通话简体字 - Mandarin Chinese Simplified characters |
+| 2 or TM | Traditional Mandarin | 普通话繁體字 - Mandarin Chinese Traditional characters |
+| 3 or MP | Mandarin Pinyin | 普通话拼音 - Mandarin Pinyin letters |
+| 4 or C | Cantonese | 广东话/粵語 - Cantonese Chinese (dialect from Guangdong) characters |
+| 5 or CP | Cantonese Pinyin | 粵拼 - Cantonese Pinyin (Jyutping) letters |
+| 6 or CZ | Chinese Zhuyin | ㄅㄆㄇㄈ - Mandarin Chinese Zhuyin ( Bopomofo) |
+| 7 or CU | Chinese Unicode | 中文统一码 - Chinese Chracter Encoding |
 
-### Structure
+### Detailed explanation
 
-![code_structure.jpg](code_structure.jpg)
-
-### Logical Explanation
-
-
-**First Stage:**
-
-
-Depending on the first language you want to use for the translation, the other options you can use for the second language will be displayed.
+Even if different versions work slightly different, the way this software works in general is that you’ll input the text you want to translate, then select in what language is that text (lang_A) and then, select in what language you want that text to be translated (lang_B), then it will display the translation for you.
 
 ```python
-# If you select 1. Simplified Mandarin as your option it will output:
+#----------- stage 1
+# Input from the user
+user_input = "为" 
 
-# Output:
-Now you can select any of the next languages:
-✎2- Traditional Mandarin Chinese
-✎3- Mandarin Chinese Pinyin
-✎4- Cantonese Chinese
+# Comment about the text user input
+OUTPUT: "The text you input: \- Contain Hanzi \- Contains (1) character"
+
+#----------- stage 2
+# Selection from the user
+from_lang = "1" # tranlation from Simplified Mandarin
+to_lang = "2" # translation to Traditional Mandarin
+
+#----------- stage 3
+# Final Translation
+OUTPUT: "Translation complete: 為"
 ```
 
-Both Mandarin Chinese pinyin and Cantonese pinyin are not available for selection as a "first language" at this time
+- **Stage 1: Text input**
+    
+    When you input the text, it is automatically checked by a Regex Formula that will tell whether the text you input has Chinese Characters, Latin Script or Zhuyin, so it can try to guess in what language is the text you input.
+    
+    - (code)
+        
+        ```python
+        # Example of user input
+        user_input = "为"
+        
+        # Text checker is a checker that will automatically check a text and tell wether it has Chinese Characters, Latin Script or Zhuyin
+        def text_checker(user_input):
+            hanzi_list = "[\u4e00-\u9fff]+" # Hanzi (Chinese Characters) unicode list
+            latin_list = "[\0000-\u007F]+" # Latin Script unicode list
+            zhuyin_list = "[\u3100-\u31A0]+" # Zhuyin unicode list
+        
+            textLength = len(user_input) - 1 # checker of how many letters/character a text have
+        
+            if (re.search(hanzi_list, user_input)):
+                print("The text you input: \- Contain Hanzi \- Contains (", textLength, ") characters")
+                return("")
+            else:
+                pass
+            if (re.search(zhuyin_list, user_input)):
+                print("The text you input: \- Contain Zhuyin characters \- Contains (", textLength, ") characters")
+                return ("")
+            else:
+                pass
+            if (re.search(latin_list, user_input)):
+                print("The text you input: \- Contain letters of Latin Script \- Contains (", textLength, ") letters")
+                return ("")
+            else:
+                pass
+        
+        ```
+        
+- **Stage 2: Selection of lang_A and lang_B**
+    
+    When you select in what language is the text you input (lang_A) it will output/show the option you selected. Same case when you select in what language is the text you input (lang_B) it will output/show the option you selected
+    
+    A function will save your selection of lang_A and your selection of lang_B, this way will know what dictionary to use (langA_to_langB)
+    
+    - (code)
+        
+        ```python
+        # Input from the user
+        user_input = "为"
+        
+        # Selection from the user
+        from_lang = "1" # in what language is the text user input
+        to_lang = "2" # in what language user will receive the translation
+        
+        # Option Selection for languages
+           if from_lang == '1' and to_lang == '2': # 1 is Simplified Mandarin, 2 is Traditional Mandarin
+               translate_text = (get_translation(user_input, simplified2traditional_dictionary)) # it saves the text the user input and selects the dictionary for languages
+               print("Translation done:")
+               return(translate_text) # returns the text
+        ```
+        
+- **Stage 3: Translation between lang_A and lang_B**
+    
+    Then the will pick the text you input and every single character/word will be replaced from the lang_A to lang_B by the .replace() method.
+    
+    - (code)
+        
+        ```python
+        # Input from the user
+        user_input = "为"
+        
+        # Example of dictionary
+        simplified2traditional_dictionary = {'为':'為'}
+        
+        # Get translation
+        def get_translation(user_input, dictionary): # will take the text from the user and also the dictionary that will be used for the translation
+            for word, replace in dictionary.items(): # will replace every single character of the user input to one that it can finds in the dictionary
+                text = text.replace(word, replace)
+            return(text)
+        ```
+        
+    
+    The result of the .replace() will be output/show for you
+    
 
+## 💯 Sources used
 
-**Second Stage:**
+I used multiple resources for making this software work, specially at the time of creating the character wordlist used for translation I needed multiple resources, so I’ll tag them here.
 
+**Chinese Simplified Wordlist**
 
-Based on the languages you selected, it will allow you to enter the text you want to translate and the text you enter will go to a created function.
+- [**10.000 character wordlist**](https://www.chinese-forums.com/forums/topic/42692-spreadsheet-of-10000-most-frequent-chinese-words-2397-characters/#replyForm) ([Chinese Forums](https://www.chinese-forums.com/), [user Sparrow](https://www.chinese-forums.com/profile/53860-sparrow/))
+- **[中文汉字大全](http://www.ku51.net/hanzi/hanzi1.html)** ([KU51.net](http://www.ku51.net/))
 
-```python
-if first_language == "Simplified Mandarin Chinese" and second_language == "Mandarin Chinese Pinyin":
-    print(function_language2language(input(
-        "\nPlease, input the text you want to translate from Simplified Mandarin Chinese to Mandarin Chinese Pinyin\n")))
-```
+**Chinese Traditional Wordlist**
 
-There is a specific function for each variation between languages. Here is an example of one of them.
+- [**Chinese Conversion Simplified <> Traditional Characters**](https://www.lexilogos.com/keyboard/chinese_conversion.htm) ([lexilogos.com](https://www.lexilogos.com/))
+- **[简体繁体字转换器](http://www.ku51.net/)** ([KU51.net](http://www.ku51.net/))
 
-```python
-def function_language2language(function_language2language_input):
-    chinese_characters = "[\u4e00-\u9fff]+"
-    if (re.search(chinese_characters, function_language2language_input)):
-        for key, value in language2language_dict.items():
-            function_language2language_input= function_language2language_input.replace(key, value)
-        print(translation_done)
-        return (function_language2language_input)
-    else:
-        return (error_found)
-```
+**Chinese Mandarin Pinyin Wordlist**
 
-The text you input will be checked, the regex function will check whether or not it has Chinese characters
+- [**Pinyin Conversion Tone Marks <> Numbers](https://www.lexilogos.com/keyboard/pinyin_conversion.htm)** ([lexilogos.com](https://www.lexilogos.com/))
+- **[Chinese to Pinyin Converter](http://www.meetmandarin.com/resources/pinyin-converter.html)** ([meetmandarin.com](http://www.meetmandarin.com/))
 
-```python
-# Regex Function: Checks if a text has chinese characters or not
-chinese_characters = "[\u4e00-\u9fff]+"
-(re.search(chinese_characters, function_language2language_input)):
-```
+**Chinese Cantonese and Cantonese Pinyin Wordlist**
 
-If your text does not have Chinese characters, it will display an error message (`"》ERROR: The text you input does not have Chinese characters. Please try again《"`), but if it has Chinese characters, it will call the replace method.
+- [**Cantonese to Jyutping Converter**](https://www.branah.com/cantonese-to-jyutping) ([branah.com](https://www.branah.com/))
+- **[漢字→廣東話/粵語拼音轉換工具](https://hongkongvision.com/tool/cc_py_conv_zh)** ([hongkongvision.com](https://hongkongvision.com/tool/cc_py_conv_zh))
 
+**Chinese Zhuyin Wordlist**
 
-**Third Stage:**
+- [Zhuyin fuhao / Bopomofo](https://omniglot.com/chinese/zhuyin.htm) ([omniglot.com](https://omniglot.com/chinese/zhuyin.htm))
 
+**Chinese Unicode Wordlist**
 
-The replace method will automatically replace the input text from 'language A' to 'language B' by replacing the keys with values it can find in a dictionary
+- [**Chinese to Unicode**](https://www.chinese-tools.com/tools/converter-unicode.html) ([chinese-tools.com](https://www.chinese-tools.com/))
 
-```python
-# Replace key and value, replace the input text for the keys/values of a ditionary
-for key, value in language2language_dict.items():
-            function_language2language_input= function_language2language_input.replace(key, value)
-        print(translation_done)
-        return (function_language2language_input
-```
+---
 
-For this to work, there are different dictionaries that represent keys (the character you input) and values (the character that will do the replacement) and that will do a quick replacement when generating the result.
+I input all of the wordlist in a Excel File, but as I needed to transform it from Excel File to a Dictionary in Python, I used the [PANDAS](https://pandas.pydata.org/) library in order to do it
 
-```python
-# Dictionary suit for replacement
-language2language_dict = {'个':'個'}
-# 个 being a "key"
-# 個 being a "value"
-```
+## 🆙 Version history
 
-After completing the process, it will return the translation successfully.
+### 0.2.0
 
-## 💯 Features
+> Published on October 31. 2022
+> 
 
-To make the dictionaries for the characters and their replacement, I used:
+**Main improvements**
 
-A [[10000 character word list].](https://www.chinese-forums.com/forums/topic/42692-spreadsheet-of-10000-most-frequent-chinese-words-2397-characters/#replyForm) I edited it removing the duplicates and the result was around 8000 characters.
+- **Python GUI/Tkinter library**
 
-- Since I needed the Cantonese translation, I used some resources including [HongKong Vision](https://hongkongvision.com/tool/cc_py_conv_en) and [Tradukka](https://tradukka.com/translate) to get the translation. in Cantonese and Cantonese pinyin
+(plus 0.1.3 version features)
 
-Since I needed to pass the Excel word list to the Python list, I used the following code using the Pandas library.
+### 0.1.3
 
-```python
-import pandas as pd
-file = pd.read_excel(r'file_path/file_name.xlsx')
+> Published on October 31. 2022
+> 
 
-print(file.to_dict('split'))
-```
+**Main improvements**
 
-And i also used the bloc editor to replace values (`’, ‘` to `’: ‘` and `], [` to `,`  ) so they could be suitable as a Dictionary
+- Able to translate 20000 of the most common Chinese Characters
+- Addition of new languages:
+    - Chinese Zhuyin
+    - Chinese Unicode
+- **Other improvements**
+    - Better checker of the inputted text (Chinese Character, Latin letters or Zhuyin)
+    - Creation of system for traslations using less space
+    - Cleaner functions for translation
+    - Better system for translation
+    - Cleaner and lighter code
 
-## 🌱 Future Plan
+(plus 0.1.2 version features)
 
-Since it's a very simple python console project, I plan to improve it as I improve my experience as a software engineer.
+### 0.1.2
+
+> Published on October 12. 2022
+> 
+
+**Main improvements**
+
+- Able to translate 12000 of the most common Chinese Characters
+- **Other improvements**
+    - Checker of the inputted text (Chinese Character or not)
+    - Better functions fo translation
+    - Cleaner and lighter code
+    - Addition of OOP concepts
+
+(plus 0.1.1 version features)
+
+### 0.1.1
+
+> Published on October 4. 2022
+> 
+- First initial version
+- **Python Module Software**
+- Able to translate 8000 most common Chinese Characters
+- Able to translate in:
+    - Mandarin Chinese Simplified
+    - Mandarin Chinese Traditional
+    - Mandarin Chinese Pinyin
+    - Cantonese
+    - Cantonese Pinyin
+
+## 🌱 Plan for the future
+
+I plan to focus on other projects but I still have some ideas for this one, like:
+
+- More accurate translation
+- Text-to-Speech
+- More Chinese Dialects
+- Voice recognition and input
+
+and others!
 
 ### Contribution
 
@@ -184,20 +348,27 @@ If you want to contribute something, report problems or add features, you are to
 
 Star ⭐ this repository if my project helped you!
 
-### Version history
+## ©️ License
 
-- 0.1
--Initial version
+**MIT License** - Simtracan Translator - Daniela Bai - Year 2022
 
-## 👤 Author
+## 👩🏼‍💻 Author
 
 Daniela Bai (Daniela Barazarte)
 
-- Twitter @danielabai8
-- Github @danielabai
+- Twitter [@danielabai8](https://twitter.com/@danielabai8)
+- Github [@danielabai](https://github.com/danielabai/)
 
 ### Special thanks
 
-A special thanks to my Chinese partner from Guangdong Avery, also to my friend Marco Aurelio L. for giving me feedback on my code and giving me the recommendation of adding Regex.
+Thanks to my friend **Marco Aurelio L**. for giving me active feedback on my code, as giving me recommendations and new ideas for the project. Thanks to my Chinese partner from Guangdong **Avery** for (unconsciously) giving me this idea. Thanks to my **mom** and anyone else who has always support me during this project. Also thanks to the tutorials I followed in order to complete this project!
 
-Also a special thanks to FreeCodeCamp for posting such a helpful tutorial for Python!
+Thanks to **FreeCodeCamp** and their tutorials of:
+
+- [Python Beginner Course](https://www.youtube.com/watch?v=rfscVS0vtbw)
+- [Tkinter GUI Beginner Course](https://www.youtube.com/watch?v=YXPyB4XeYLA)
+
+Thanks to **[Bro Code](https://www.youtube.com/c/BroCodez)** and his tutorials of:
+
+- [Python Beginner Course](https://www.youtube.com/watch?v=XKHEtdqhLK8)
+- [Tkinter GUI Beginner Course](https://www.youtube.com/watch?v=TuLxsvK4svQ)
