@@ -363,3 +363,8 @@ Thanks to **[Bro Code](https://www.youtube.com/c/BroCodez)** and his tutorials o
 
 - [Python Beginner Course](https://www.youtube.com/watch?v=XKHEtdqhLK8)
 - [Tkinter GUI Beginner Course](https://www.youtube.com/watch?v=TuLxsvK4svQ)
+
+
+<p align="center">
+<img height="auto" width="10%" src="https://github.com/danielabai/danielabai/blob/main/DanielaBai_GIF.gif?raw=true"/>
+</p>
