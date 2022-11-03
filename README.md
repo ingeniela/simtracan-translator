@@ -366,5 +366,5 @@ Thanks to **[Bro Code](https://www.youtube.com/c/BroCodez)** and his tutorials o
 
 
 <p align="center">
-<img height="auto" width="10%" src="https://github.com/danielabai/danielabai/blob/main/DanielaBai_GIF.gif?raw=true"/>
+<img height="auto" width="5%" alt="Daniela Bai Logo (in GIF)" src="https://github.com/danielabai/danielabai/blob/main/logo/gif/Black2White.gif?raw=true"/>
 </p>
