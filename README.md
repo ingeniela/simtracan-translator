@@ -1,5 +1,7 @@
 ![Simtracan Logo and Banner](README_SimtracanBanner.jpg)
-
+---
+Read in other languages: [English](README.md) · [Español](README.sp.md) · [简体中文](README.zh-s.md) · [繁體中文](README.zh-t.md).
+---
 ## 🀄 Simtracan Translator
 
 **Simtracan Translator** is a translation software that (at its 0.1.3 version) can translate between Mandarin Chinese Simplified, Mandarin Chinese Traditional, Mandarin Chinese Pinyin, Cantonese, Cantonese Pinyin, Chinese Zhuyin and Chinese Unicode Characters.
