@@ -1,24 +1,24 @@
 ![Logotipo y pancarta de Simtracan](README_SimtracanBanner.jpg)
 ---
-Leer en otros idiomas: [English](README.md) · [Español](README.sp.md) · [简体中文](README.zh-s.md) · [繁體中文](README.zh-t. Maryland).
+Leer en otros idiomas: [English](README.md) · [Español](README.sp.md) · [简体中文](README.zh-s.md) · [繁體中文](README.zh-t.md).
 ---
-## 🀄 Traductor Simtracán
+## 🀄 Simtracan Translator
 
-**Simtracan Traductor** es un software de traducción que (en su versión 0.1.3) puede traducir entre chino mandarín simplificado, chino mandarín tradicional, chino mandarín pinyin, cantonés, cantonés pinyin, chino zhuyin y caracteres chinos Unicode.
+**Simtracan Translator** es un software de traducción que (en su versión 0.1.3) puede traducir entre chino mandarín simplificado, chino mandarín tradicional, chino mandarín pinyin, cantonés, cantonés pinyin, chino zhuyin y caracteres chinos Unicode.
 
-Este software fue desarrollado en Python por Daniela Bai (Daniela Barazarte) y su objetivo principal es traducir texto en múltiples derivaciones del idioma chino sin límite de caracteres, sin anuncios, con gran traducción y teniendo múltiples opciones en el mismo traductor.
+Este software fue desarrollado en Python por Daniela Bai (Daniela Barazarte) y su objetivo principal es traducir texto en múltiples derivaciones del idioma chino sin límite de caracteres, sin anuncios, con traducción buena y teniendo múltiples opciones en el mismo traductor.
 
 En este momento, puede traducir la mayoría de los caracteres chinos, ya que contiene una biblioteca de más de 18,000 汉字.
 
 ### Motivación
 
-Hace casi dos años comencé a aprender chino mandarín y como estoy tan interesado en el idioma encontré algunos compañeros para practicar, uno de ellos era una chica de Guangdong que, para jugarme una broma, me envía mensajes de texto en cantonés.
+Hace casi dos años comencé a aprender chino mandarín y como estoy tan interesada en el idioma encontré algunos compañeros para practicar, uno de ellos era una chica de Guangdong que, para jugarme una broma, me enviaba mensajes de texto en cantonés.
 
-Mientras mejoraba mi chino, también estaba aprendiendo Python a través de un tutorial de Youtube y estaba dispuesto a poner en práctica el conocimiento, así que… como antes, no podía encontrar buenos traductores que pudieran dar la traducción del cantonés al mandarín simplificado para entender los mensajes de mi pareja. , ¿por qué no construirlo yo mismo? y así es como me vino a la mente Simtracan Traductor.
+Mientras mejoraba mi chino, también estaba aprendiendo Python a través de un tutorial de Youtube y estaba dispuesta a poner en práctica el conocimiento, así que… como antes no podía encontrar buenos traductores que pudieran dar la traducción del cantonés al mandarín simplificado para entender los mensajes de mi compañera, ¿por qué no construirlo yo misma? y así es como me vino a la mente Simtracan Translator.
 
-Fue difícil al principio, considerando que soy muy nuevo en el aspecto de la programación y no soy bueno en cantonés en absoluto, pero incluso con eso decidí construirlo.
+Fue difícil al principio, considerando que soy muy nueva en el aspecto de la programación y no soy buena en cantonés en absoluto, pero incluso con eso decidí construirlo.
 
-Empecé el proyecto y tomé la decisión de llamarlo “Traductor de Simtracan”, ya que incluye chino simplificado, tradicional y cantonés. Ahora estoy muy emocionada de mostrar este proyecto.
+Empecé el proyecto y tomé la decisión de llamarlo “Simtracan Translator”, ya que incluye chino simplificado, tradicional y cantonés. Ahora estoy muy emocionada de mostrar este proyecto.
 
 ## 🚀 Instalación
 
@@ -55,7 +55,7 @@ Tenga en cuenta que el software de Simtracan Traductor podría incluir errores t
 - Abra su Terminal/Consola de Python
 - Agrega la carpeta de la versión que necesitas
 - Ejecutar el código
-     - Si tiene problemas o errores en este paso, [póngase en contacto conmigo] (simtracan-translator%20819d2e8f30024ea3833e508558ff7bee.md)
+     - Si tiene problemas o errores en este paso, [póngase en contacto conmigo](simtracan-translator%20819d2e8f30024ea3833e508558ff7bee.md)
 - Empezar a seguir las instrucciones.
 
 **Explicación**
@@ -74,7 +74,7 @@ Seleccione otro número y seleccione el idioma en el que desea recibir la traduc
 > Si seleccionó una opción incorrectamente, o si seleccionó el mismo idioma dos veces, el software mostrará un mensaje de error y le permitirá seleccionar una opción (tiene tres intentos para seleccionar la opción correctamente)
 >
 
-Recibe tu traducción
+Recibe la traducción
 
 ### Modo de GUI de Python
 
@@ -91,7 +91,7 @@ También puede verificar el texto que ingresa.
 > Contará cuántos caracteres tiene tu texto y también te dirá si está en Pinyin o en caracteres chinos
 >
 
-Luego debes seleccionar en el menú de opciones en qué idioma está ese texto que ingresas.
+Luego debe seleccionar en el menú de opciones en qué idioma está ese texto que ingresas.
 
 Seleccione en otro menú de opciones el idioma en el que desea recibir la traducción
 
@@ -224,13 +224,13 @@ OUTPUT: "Translation complete: 為"
     
      El resultado de .replace() se generará/se mostrará para usted
    
-## 💯 Fuentes utilizadas
+## 💯 Recursos utilizadas
 
 Utilicé múltiples recursos para hacer que este software funcionara, especialmente en el momento de crear la lista de palabras de caracteres utilizada para la traducción. Necesitaba múltiples recursos, así que los etiquetaré aquí.
 
 **Lista de palabras en chino simplificado**
 
-- [**Lista de palabras de 10 000 caracteres**](https://www.chinese-forums.com/forums/topic/42692-spreadsheet-of-10000-most-frequent-chinese-words-2397-characters/#replyForm) ([Foros chinos](https://www.chinese-forums.com/), [usuario Sparrow](https://www.chinese-forums.com/profile/53860-sparrow/))
+- [**Lista de palabras de 10 000 caracteres**](https://www.chinese-forums.com/forums/topic/42692-spreadsheet-of-10000-most-frequent-chinese-words-2397-characters/#replyForm) ([Foros chinos](https://www.chinese-forums.com/), [SparrowUser](https://www.chinese-forums.com/profile/53860-sparrow/))
 - **[中文汉字大全](http://www.ku51.net/hanzi/hanzi1.html)** ([KU51.net](http://www.ku51.net/))
 
 **Lista de palabras en chino tradicional**
