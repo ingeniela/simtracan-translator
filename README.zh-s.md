@@ -4,7 +4,7 @@
 ---
 ## 🀄 Simtracan 翻译
 
-**Simtracan Translator** 是一款翻译软件（在其 0.1.3 版本中）可以在简体中文、繁体中文、普通话拼音、粤语、粤语拼音、中文注音和中文 Unicode 字符之间进行翻译。
+**Simtracan Translator** (Simtracan 翻译) 是一款翻译软件（在其 0.1.3 版本中）可以在简体中文、繁体中文、普通话拼音、粤语、粤语拼音、中文注音和中文 Unicode 字符之间进行翻译。
 
 该软件由 Daniela Bai (Daniela Barazarte) 用 Python 开发，其主要目标是翻译中文的多种派生文本，不受字符限制，无广告，翻译效果好，同一翻译器有多种选择。
 
@@ -12,7 +12,7 @@
 
 ### 动机
 
-大约两年前，我开始学习普通话，因为我对这门语言很感兴趣，所以我找了一些伙伴一起练习，其中一位是广东女孩，开玩笑说她用粤语发短信。
+大约两年前，我开始学习普通话，因为我对这门语言很感兴趣，所以我找了一些伙伴一起练习，其中一位是广东女孩，开玩笑说她用粤语发给我短信。
 
 在提高我的中文水平的同时，我还通过一些 Youtube 教程学习了 Python，并愿意将所学知识付诸实践，所以……以前我找不到好的翻译人员可以将粤语翻译成简体中文来理解我伙伴的信息 ，为什么不自己建呢？ 于是想到了 Simtracan Translator。
 
@@ -116,7 +116,7 @@ Python 3.x.x
 | 4 或 C | 粤语 | 广东话/粤语- Cantonese Chinese (广东方言) characters |
 | 5 或 CP | 粤语拼音 | 粤拼 - 粤语拼音 (Jyutping) 字母 |
 | 6 或 CZ | 中国注音 | ㄅㄆㄇㄈ - 中文注音 (Bopomofo) |
-| 7 或铜 | 中文统一码 | 中文统一码 - Chinese Chacter Encoding |
+| 7 或 CU | 中文统一码 | 中文统一码 - Chinese Chacter Encoding |
 
 ### 详细解释
 
@@ -228,7 +228,7 @@ OUTPUT: "Translation complete: 為"
 
 **简体中文词汇表**
 
-- [**万字词表**](https://www.chinese-forums.com/forums/topic/42692-spreadsheet-of-10000-most-frequent-chinese-words-2397-characters/#replyForm) ([中文论坛](https://www.chinese-forums.com/), [用户麻雀](https://www.chinese-forums.com/profile/53860-sparrow/))
+- [**万字词表**](https://www.chinese-forums.com/forums/topic/42692-spreadsheet-of-10000-most-frequent-chinese-words-2397-characters/#replyForm) ([中文论坛](https://www.chinese-forums.com/), [Sparrow User](https://www.chinese-forums.com/profile/53860-sparrow/))
 - **[中文汉字大全](http://www.ku51.net/hanzi/hanzi1.html)** ([KU51.net](http://www.ku51.net/))
 
 **繁体字表**
@@ -342,7 +342,7 @@ OUTPUT: "Translation complete: 為"
 
 ## ©️ 许可证
 
-**麻省理工学院许可证** - Simtracan 翻译 - Daniela Bai - 2022年
+**麻省理工学院许可证** - Simtracan Translator / Daniela Bai - 2022年
 
 ## 👩🏼‍💻 作者
 
