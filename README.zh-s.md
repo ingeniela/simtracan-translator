@@ -1,6 +1,6 @@
 ![Simtracan 标志和横幅](README_SimtracanBanner.jpg)
 ---
-其他语言阅读：[English](README.md) · [Español](README.sp.md) · [简体中文](README.zh-s.md) · [繁体中文](README.zh-t. 医学博士）。
+其他语言阅读：[English](README.md) · [Español](README.sp.md) · [简体中文](README.zh-s.md) · [繁体中文](README.zh-t.md)
 ---
 ## 🀄 Simtracan 翻译
 
