@@ -326,10 +326,11 @@ I input all of the wordlist in a Excel File, but as I needed to transform it fro
 
 I plan to focus on other projects but I still have some ideas for this one, like:
 
-- More accurate translation
-- Text-to-Speech
-- More Chinese Dialects
-- Voice recognition and input
+- Bigger wordlist set
+- More accurate translation: Cantonese, Zhuyin (Bopomofo)
+- More languages: Wade-Giles, Martian
+- Helpful tools: copy translation to clipboard, text-to-speech, chinese reader, voice recognition, draw characters
+- Other frameworks: Translator available in Django
 
 and others!
 
