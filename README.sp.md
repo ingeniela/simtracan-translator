@@ -348,10 +348,10 @@ Si quieres contribuir con algo, reportar problemas o agregar funciones, ¡eres t
 
 ## 👩🏼‍💻 Autor
 
-Daniela Bai (Daniela Barazarte)
+Daniela Barazarte (Daniela Barazarte)
 
-- Twitter [@danielabai8](https://twitter.com/@danielabai8)
-- Github [@danielabai](https://github.com/danielabai/)
+- Twitter [@danibarazarteg](https://twitter.com/@danibarazarteg)
+- Github [@danielabarazarte](https://github.com/danielabarazarte/)
 
 ### Gracias especiales
 
